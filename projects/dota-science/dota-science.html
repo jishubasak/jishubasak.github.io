@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dota Science</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="../../images/icon.svg">
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../../index.html">J. Basak | HOME</a></h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post" style="margin: 0 5% 1% 5%">
+								<header>
+									<div class="title">
+										<h2>Dota Science</h2>
+										<p>Clustering Player Styles in DOTA2 Using Unsupervised ML</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2019-07-16">July 16, 2019</time>
+										<a href="https://www.linkedin.com/in/kyle-ong-19853a86/" class="author"><span class="name">Kyle Mathew Ong</span></a>
+										<a href="https://www.linkedin.com/in/jishubasak/" class="author"><span class="name">Jishu Basak</span></a>
+										<a href="https://www.linkedin.com/in/jeddahlyn-gacera/" class="author"><span class="name">Jeddahlyn Gacera</span></a>
+										<a href="#" class="author"><span class="name">Jan Michael Coligado</span></a>
+									</div>
+								</header>
+								<video width="100%" controls style="margin-bottom: 1em;">
+									<source src="dota-science-presentation.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+								<h3>Executive Summary</h3>
+								<p align="justify">
+									DOTA2 is a highly complex game that is played between 2 teams of 5 opposing players, where each player can play any of 117 heroes available. This game typically poses challenges for both professional and casual players in choosing a teammate with a preferred "playing style" that would suit the team's needs. This study utilizes the unsupervised machine learning KMeans Clustering to be able to classify different "styles" of play from data collected from all 317 verified tournament players from <a href="https://www.dotabuff.com/">https://www.dotabuff.com/</a>. The results of the clustering identify 3 main clusters of playing styles:
+								</p>
+								<ul style="margin-left: 5%;">
+									<li>
+										<b>Hard Carries</b>, which is characterized by a skewed hero selection towards attack or "carry" heroes and typically have high kill rates and lower assist rates as well as being the highest ranked among the three clusters, with a median ranking of 121/317. Interestingly, most of the top 10 ranked verified tournament players belong to this cluster, perhaps showing that the ranking system is biased towards those with high games and kills.
+									</li>
+									<li>
+										<b>Versatile</b>, which is characterized by mixed hero selection with both "carry" and "support" heroes being present in the top 5 heroes used in the cluster. These players also typically show relatively high kill rates but low number of games played, perhaps showing the lack of experience which may account for their "undecided" playing style. With regard to player rankings, they are rankged in the middle with a median ranking of 169/317.
+									</li>
+									<li>
+										<b>Hard Support</b>, which is characterized by a strong preference to play "support" characters, and this is further supported by the top 5 heroes chosen in this cluster. This cluster shows high assist rates but low kill and death rates, that point to their playing style in game as being "support" characters that help the "carry" characters during the game. This cluster is also ranked the lowest, with its median rank being 185/317.
+									</li>
+								</ul>
+								<p>
+									While the clustering was able to uncover 3 types of players, the limitations of this methodology is that there are no labels added and the granularity of the data is only until the lifetime averages of the players. A further study could be done on the match-per-match level using different supervised machine learning algorithms to create a more granular and accurate picture on the exact styles of the players.
+								<p style="font-size: 0.9em;"><i>If you wish to have a copy of the technical paper, data, or the code used in this project, kindly contact us via <a href="mailto:jeddahlyn.gacera@gmail.com">e-mail</a> or <a href="https://www.linkedin.com/in/jeddahlyn-gacera/">LinkedIn</a>.</i></p>
+
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jeddahlyn-gacera/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/jeddahlyngacera" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:jeddahlyn.gacera@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
