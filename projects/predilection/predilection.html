@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Dota Science</title>
+		<title>Predilection</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="../../images/icon.svg">
@@ -29,8 +29,8 @@
 							<article class="post" style="margin: 0 5% 1% 5%">
 								<header>
 									<div class="title">
-										<h2>Dota Science</h2>
-										<p>Clustering Player Styles in DOTA2 Using Unsupervised ML</p>
+										<h2>Predilection</h2>
+										<p>Predicting Winning Political Candidates From News Tone using GDELT dataset</p>
 									</div>
 									<div class="meta">
 										<time class="published" datetime="2019-07-16">July 16, 2019</time>
@@ -40,34 +40,37 @@
 										<a href="#" class="author"><span class="name">Jan Michael Coligado</span></a>
 									</div>
 								</header>
-								<video width="100%" controls style="margin-bottom: 1em;">
-									<source src="projects/dota-science/dota-science-presentation.mp4" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
-								<h3>Executive Summary</h3>
+								<p align="center"><img src="eposter.png"></p>
+								<h3>Introduction</h3>
 								<p align="justify">
-									DOTA2 is a highly complex game that is played between 2 teams of 5 opposing players, where each player can play any of 117 heroes available. This game typically poses challenges for both professional and casual players in choosing a teammate with a preferred "playing style" that would suit the team's needs. This study utilizes the unsupervised machine learning KMeans Clustering to be able to classify different "styles" of play from data collected from all 317 verified tournament players from <a href="https://www.dotabuff.com/">https://www.dotabuff.com/</a>. The results of the clustering identify 3 main clusters of playing styles:
+									Predicting the future seems to be one of mankind's deepest fascinations, and why ever not? The ability to foresee future events presents a luxury of practical benefits.
+									For one, it enables businesses to forecast sales and predict the next occurrence of equipment failure. It also allows investors to make an informed decision on which stocks
+									 to buy or which parcels of land would be most profitable for the new year. Moreover, it helps medical professionals have an idea of how long a patient would stay in the
+									 hospital based on her health records. Getting ahead gives one the necessary time to prepare or anticipate an emerging situation, and thus take prompt action to either mitigate
+									 the risk or take advantage of the opportunity.
+
+									Although the science of forecasting finds applications in many different fields, it is not a complete stranger in the spheres of politics.
+									The United States Presidential Elections is perhaps one of the most important political events, anticipated not only by Americans but as well as the rest of the world.
+									This phenomenal transfer of power from one leader to another could either maintain the status quo or entirely redefine the world order. Thus, there is a strong, concerted
+									effort among researchers to get the pulse of the voters either through social weather surveys, online polls, and other predictive methods.
+
+									Marketing intelligence company IDC reports that the entire global datasphere will grow to about 175 zettabytes by 2025. With the emergence of disruptive technologies
+									like Big Data and AI, our ability to predict future events has become more accurate than ever before. In this project, the authors explore the predictive power of Big Data
+									in predicting election results.
 								</p>
-								<ul style="margin-left: 5%;">
-									<li>
-										<b>Hard Carries</b>, which is characterized by a skewed hero selection towards attack or "carry" heroes and typically have high kill rates and lower assist rates as well as being the highest ranked among the three clusters, with a median ranking of 121/317. Interestingly, most of the top 10 ranked verified tournament players belong to this cluster, perhaps showing that the ranking system is biased towards those with high games and kills.
-									</li>
-									<li>
-										<b>Versatile</b>, which is characterized by mixed hero selection with both "carry" and "support" heroes being present in the top 5 heroes used in the cluster. These players also typically show relatively high kill rates but low number of games played, perhaps showing the lack of experience which may account for their "undecided" playing style. With regard to player rankings, they are rankged in the middle with a median ranking of 169/317.
-									</li>
-									<li>
-										<b>Hard Support</b>, which is characterized by a strong preference to play "support" characters, and this is further supported by the top 5 heroes chosen in this cluster. This cluster shows high assist rates but low kill and death rates, that point to their playing style in game as being "support" characters that help the "carry" characters during the game. This cluster is also ranked the lowest, with its median rank being 185/317.
-									</li>
-								</ul>
-								<p>
-									While the clustering was able to uncover 3 types of players, the limitations of this methodology is that there are no labels added and the granularity of the data is only until the lifetime averages of the players. A further study could be done on the match-per-match level using different supervised machine learning algorithms to create a more granular and accurate picture on the exact styles of the players.
-								<p style="font-size: 0.9em;"><i>If you wish to have a copy of the technical paper, data, or the code used in this project, kindly contact us via <a href="mailto:jishubasak@gmail.com">e-mail</a> or <a href="https://www.linkedin.com/in/jishubasak/">LinkedIn</a>.</i></p>
+								<h3>Problem Statement</h3>
+								<p align="justify">
+								In this project, the authors intend to explore the potential predictive power of online news coverage with respect to the winnability of a certain political candidate.
+								One of the motivations of this project is to devise an alternative measure to social weather surveys in gauging the sentiment of voters.
+								Since news articles, as they should be, are technically less biased as compared to tweets or posts on social media, it may be inferred that the model would give a more reliable output.
+								</p>
 
 								<div>
 									<ul style="text-align:center">
-										<a href="https://github.com/jishubasak/Dota-Science" class="button">Continue Reading</a>
+										<a href="https://github.com/jishubasak/Leaf-Prediction" class="button">Continue Reading</a>
 									</ul>
-								</div>
+								</div>								
+
 							</article>
 					</div>
 
