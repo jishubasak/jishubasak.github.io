@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Leaf Disease Prediction</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="../../images/icon.svg">
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../../index.html">J. Basak | HOME</a></h1>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post" style="margin: 0 5% 1% 5%">
+								<header>
+									<div class="title">
+										<h2>Take it or Leaf it	</h2>
+										<p>Plant Disease Classification through Convolutional Neural Networks</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2019-07-16">December 20, 2019</time>
+										<a href="https://www.linkedin.com/in/gilbert-chua-306435181/" class="author"><span class="name">Gilbert Chua</span></a>
+										<a href="https://www.linkedin.com/in/jishubasak/" class="author"><span class="name">Jishu Basak</span></a>
+										<a href="https://www.linkedin.com/in/rjrroberto/" class="author"><span class="name">Roy Roberto</span></a>
+										<a href="https://www.linkedin.com/in/bengielyn-danao/" class="author"><span class="name">Benj Danao</span></a>
+									</div>
+								</header>
+								<video width="100%" controls style="margin-bottom: 1em;">
+									<source src="dota-science-presentation.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+								<h3>Abstract</h3>
+								<p align="justify">
+								One of the major threats to food security are Crop Diseases, but their rapid identification remains difficult in many parts of the world due to the lack of the necessary infrastructure and modern technologies.
+								The combination of increasing global smartphone penetration and recent advances in computer vision made possible by deep learning has paved the way for smartphone-assisted disease diagnosis. Using a public dataset
+								of over 4522 images of diseased and healthy plant leaves collected under controlled conditions, we train a deep convolutional neural network to identify 3 crop species and 10 diseases (or absence thereof).
+								The trained model achieves an accuracy of 97.7% on a held-out test set, demonstrating the feasibility of this approach. Overall, the approach of training deep learning models on increasingly large and publicly
+								available image datasets presents a clear path toward smartphone-assisted crop disease diagnosis on a massive global scale.
+								</p>
+								<h3>Introduction</h3>
+								<p align="justify">
+								In order to develop accurate image classifiers for the purposes of plant disease diagnosis, we needed a large, verified dataset of images of diseased and healthy plants. To address this problem,
+								the PlantVillage project has begun collecting tens of thousands of images of healthy and diseased crop plants (Hughes and Salathé, 2015), and has made them openly and freely available. Here,
+								we report on the classification of 10 diseases in 3 crop species using 4522 images with a convolutional neural network approach. We measure the performance of our models based on their ability
+								to predict the correct crop-diseases pair. The best performing model achieves a mean F1 score of 0.977 (overall accuracy of 97.70%), hence demonstrating the technical feasibility of our approach.
+								Our results are a first step toward a smartphone-assisted plant disease diagnosis system.
+								</p>
+								<h3>Plant Village Leaf Database</h3>
+								<p align="justify">
+								Plant Village is an organization advocating for the development of technologies for the agricultural sector. The organization has collated over 50,000 images of leaves from different plants
+								which are healthy or otherwise affected by some disease. For this study, a sample of 4522 images are taken from the Plant Village dataset that correspond to a total of 10 classes.
+								Each image is a 256x256 pixel colored image of a leaf corresponding to both a species of a plant and its condition. These images were taken in approximately the same position, angle, and background.
+								To generate images like those taken by equipment with poor resolution or by taking the images of leaves at a distance, the 256x256 images were downscaled to 64x64 images.
+								</p>
+								<p style="font-size: 0.9em;"><i>If you wish to have a copy of the technical paper, data, or the code used in this project, kindly contact us via <a href="mailto:jishubasak@gmail.com">e-mail</a> or <a href="https://www.linkedin.com/in/jishubasak/">LinkedIn</a>.</i></p>
+
+								<div>
+									<ul style="text-align:center">
+										<a href="https://github.com/jishubasak/Leaf-Prediction" class="button">Continue Reading</a>
+									</ul>
+								</div>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jishubasak/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/jishubasak" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:jishubasak@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
